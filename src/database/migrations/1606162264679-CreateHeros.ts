@@ -29,6 +29,11 @@ export default class CreateHeros1606162264679 implements MigrationInterface {
                   isNullable: false,
                },
                {
+                  name: 'image_url',
+                  type: 'varchar',
+                  isNullable: false,
+               }
+               {
                   name: 'created_at',
                   type: 'timestamp',
                   default: 'now()',
