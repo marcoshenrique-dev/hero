@@ -23,6 +23,12 @@
       "prettier"
    ],
    "rules": {
+      "class-methods-use-this": "off",
+      "constructor-super": "off",
+      "@typescript-eslint/no-unused-vars": ["error", {
+         "argsIgnorePattern": "_"
+      }],
+      "camelcase": "off",
       "prettier/prettier": "error",
       "import/extensions": [
          "error",
